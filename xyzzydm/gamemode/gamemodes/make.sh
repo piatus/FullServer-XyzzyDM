@@ -18,7 +18,7 @@ WINEPREFIX=/vol/n/.wg/ wine /pawno/pawncc -i/pawno/include_0.3c -i..\\include fs
 
 #Windows wersion compilation of gamemode
                   #by mrdrifter
-Copy and save file *.bat 
+#Copy and save file *.bat 
 @echo off
 echo \#define GMVERSION \"3.3r$SVER\" > .././pawno/include/fullserver/version.inc
 set KIEDY=`date +%x\ %T`
